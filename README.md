@@ -104,7 +104,11 @@ gradle clean fatJar
 # 3. Find the compiled extension
 ls build/libs/
 # Output: ReflectionPlus-all.jar
+
 ```
+
+<img width="1255" height="467" alt="image" src="https://github.com/user-attachments/assets/3b497267-9290-4a93-a1a4-54ef306a2902" />
+
 
 ### Loading into Burp Suite
 
