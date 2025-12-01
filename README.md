@@ -145,6 +145,8 @@ The Reflection+ interface is divided into three main sections:
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
+
+
 ### Section 1: Reflected Entries Table (Top)
 
 The main table displays all detected reflections with the following columns:
@@ -184,6 +186,7 @@ The main table displays all detected reflections with the following columns:
 
 ![Reflection+ Screenshot 2](media/ref2.png)
 
+
 ### Section 2: Parameters Panel (Bottom Left)
 
 Displays detailed information about reflected parameters for the selected entry. Clicking a row here triggers **Native Search Highlighting** in the editors.
@@ -197,6 +200,9 @@ Displays detailed information about reflected parameters for the selected entry.
 ### Section 3: Request/Response Viewer (Bottom Right)
 
 Side-by-side display using Burp's **Native Montoya Editors**. This ensures full compatibility with Burp's features (search, rendering, etc.).
+
+
+<img width="3136" height="1756" alt="image" src="https://github.com/user-attachments/assets/2a8f3704-9091-4d64-b42e-25bd7e28b609" />
 
 ---
 
