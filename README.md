@@ -617,54 +617,6 @@ ReflectionPlus/
 
 ---
 
-## Version History
-
-### Version 1.0 (Official Release)
-- **Official Release:** First major version release.
-- **Enhanced Scanner:** Improved XSS scanning capabilities with fallback mechanisms.
-- **Montoya API:** Fully integrated with Montoya API 2024.12.
-- **Refined UI:** Polished user interface with native search highlighting.
-- **Bug Fixes:** Resolved various minor issues and optimized performance.
-
-### Version 0.34 (XSS Scan Support)
-- **Active XSS Scan**: Targeted scanning for XSS vulnerabilities (Reflected/Stored) on specific requests or parameters.
-  - **Note**: Due to Montoya API limitations, this currently triggers a standard active scan (which includes XSS). Future updates will implement a custom XSS-only check.
-  - **Active XSS scan whole request**: Scans the entire request.
-  - **Active XSS scan reflected parameters**: Scans only the reflected parameters.".
-- **Custom Insertion Points:** Leverages `AuditInsertionPointProvider` to target specific reflected parameters.
-- **API Update:** Upgraded to Montoya API 2024.12 for enhanced scanner capabilities.
-
-### Version 0.32 (Montoya Migration)
-- **Full Migration:** Ported entire codebase to **Montoya API (2023.12.1)**.
-- **Native Search:** Implemented native search highlighting for better performance and UX.
-- **Scanner Support:** Added support for capturing Scanner traffic via `HttpHandler`.
-- **UI Restoration:** Restored exact legacy UI dimensions and layout (Pixel-Perfect).
-- **Intruder Markers:** Added intelligent payload markers when sending to Intruder.
-- **Code Optimization:** Cleaned up dependencies and optimized performance.
-
-### Version 0.31
-- Performance optimizations with immutable collections
-- Thread-safe data structures
-- Improved code organization
-- Enhanced documentation
-- Bug fixes and stability improvements
-
-### Version 0.30
-- Horizontal Request/Response layout
-- Orange-colored section labels
-- Adjustable panel sizes
-- Code refactoring
-
-### Version 0.29
-- Initial public release
-- Core reflection detection
-- Filtering system
-- Burp tool integration
-
-See [CHANGELOG.md](CHANGELOG.md) for complete version history.
-
----
-
 ## Author
 
 **Cihan Mehmet DOĞAN**
